@@ -1,9 +1,16 @@
-const amount = 12
+// GLOBALS - NO WINDOW!!!
 
-if ( amount < 10 ) {
-    console.log("small number");
-} else {
-    console.log('large number');
-}
+// __dirname   - path to current directory
+// __filename  - file name
+// require     - function to use modules ( CommonJS )
+// module      - info about current module (file)
+// process     - info aboout env where the program is being executed
 
-console.log(`hey it's my first node app`)
+
+console.log(__dirname)
+setInterval(() => {
+    console.log('hellow world')
+},1000)
+
+
+// clear  command - clear terminal
