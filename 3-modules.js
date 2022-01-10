@@ -1,6 +1,11 @@
 // Modules  - Encapsulated Code (only share minimum)
 //Common JS, every file is module (by default)
 
+//Built-in Modules 
+// - OS
+// - PATH
+// - FS
+// - HTTP
 
 // require - imports
 // in order to access - giving path - always start with "./"
@@ -21,6 +26,14 @@ sayHi(peter)
 
 console.log(names)
 
+
+const data = require('./6-alternative-flavor')
+
+console.log(data)
+//{ items: [ 'item1', 'item2' ], singlePerson: { name: 'bob' } }
+
+require('./7-mind-grenade')   //the sum is : 15
+// invokes automatically because it's executed
 
 
 
