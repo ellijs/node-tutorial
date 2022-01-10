@@ -2,7 +2,7 @@
 //Common JS, every file is module (by default)
 
 
-// require
+// require - imports
 // in order to access - giving path - always start with "./"
 const names = require('./4-names.js')
 const sayHi = require('./5-utils.js')
