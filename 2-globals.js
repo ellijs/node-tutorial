@@ -7,10 +7,13 @@
 // process     - info aboout env where the program is being executed
 
 
-// console.log(__dirname)
-// setInterval(() => {
-//     console.log('hellow world')
-// },1000)
+console.log(__dirname)
+setInterval(() => {
+    console.log('hellow world')
+},1000)
 
 
 // clear  command - clear terminal
+
+
+
