@@ -2,13 +2,26 @@
 //Common JS, every file is module (by default)
 
 
-const john = 'john'
-const peter = 'peter'
+// require
+// in order to access - giving path - always start with "./"
+const names = require('./4-names.js')
+const sayHi = require('./5-utils.js')
 
-const sayHi = name => {
-    console.log(`Hello there ${name}`)
-}
+// can access value through dot notation
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
+
+// can destructuring
+const { john, peter } = require('./4-names.js')
 
 sayHi('susan')
 sayHi(john)
 sayHi(peter)
+
+console.log(names)
+
+
+
+
+
