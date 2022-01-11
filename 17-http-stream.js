@@ -4,7 +4,8 @@ var fs = require('fs')
 http
   .createServer(function (req, res) {
     // const text = fs.readFileSync('./content/big.txt', 'utf8')
-    // res.end(text)
+    // res.end(text)   => data is way too big for server
+    
     const fileStream = fs.createReadStream('./content/big.txt', 'utf8')
     fileStream.on('open', () => {
       fileStream.pipe(res)
