@@ -11,3 +11,6 @@ writeFileSync(
 )
 console.log('done with this task')
 console.log('starting the next one')
+
+
+// it might be time consuming, take really long time, no cannot serve other users. applications might be down.

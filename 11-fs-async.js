@@ -30,3 +30,6 @@ readFile('./content/first.txt',
   })
 })
 console.log('starting next task')
+
+
+// code might be messy. alternative is using promises. or Async and await
