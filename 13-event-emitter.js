@@ -1,4 +1,7 @@
 // get back the class
+
+// google NODE JS EVENT LOOP
+
 // if want custom extend from class
 // otherwise just for emitting and handling events create instance
 const EventEmitter = require('events')
